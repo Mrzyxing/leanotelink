@@ -1,0 +1,130 @@
+{
+  "status": 1,
+  "snapshot_id": {
+    "long": 7190571759269447000
+  },
+  "data_file": {
+    "file_path": "hdfs://10.58.116.93:8020/nn/dw/iceberg/poc/uinfo/data/dt=2022-04-07T17%3A43%3A51.179/00000-0-d6da4ab8-35cc-4a4e-ba4b-1fd327fa6fa7-00001.parquet",
+    "file_format": "PARQUET",
+    "partition": {
+      "dt": {
+        "long": 1649353431179000
+      }
+    },
+    "record_count": 1,
+    "file_size_in_bytes": 1204,
+    "block_size_in_bytes": 67108864,
+    "column_sizes": {
+      "array": [
+        {
+          "key": 1,
+          "value": 52
+        },
+        {
+          "key": 2,
+          "value": 57
+        },
+        {
+          "key": 3,
+          "value": 51
+        },
+        {
+          "key": 4,
+          "value": 57
+        }
+      ]
+    },
+    "value_counts": {
+      "array": [
+        {
+          "key": 1,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 1
+        },
+        {
+          "key": 3,
+          "value": 1
+        },
+        {
+          "key": 4,
+          "value": 1
+        }
+      ]
+    },
+    "null_value_counts": {
+      "array": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        }
+      ]
+    },
+    "nan_value_counts": {
+      "array": []
+    },
+    "lower_bounds": {
+      "array": [
+        {
+          "key": 1,
+          "value": "\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+        },
+        {
+          "key": 2,
+          "value": "zyxing"
+        },
+        {
+          "key": 3,
+          "value": "\u0012\u0000\u0000\u0000"
+        },
+        {
+          "key": 4,
+          "value": "øÞ_\u0005\u0014Ü\u0005\u0000"
+        }
+      ]
+    },
+    "upper_bounds": {
+      "array": [
+        {
+          "key": 1,
+          "value": "\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+        },
+        {
+          "key": 2,
+          "value": "zyxing"
+        },
+        {
+          "key": 3,
+          "value": "\u0012\u0000\u0000\u0000"
+        },
+        {
+          "key": 4,
+          "value": "øÞ_\u0005\u0014Ü\u0005\u0000"
+        }
+      ]
+    },
+    "key_metadata": null,
+    "split_offsets": {
+      "array": [
+        4
+      ]
+    },
+    "sort_order_id": {
+      "int": 0
+    }
+  }
+}
