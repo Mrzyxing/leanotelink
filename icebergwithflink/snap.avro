@@ -1,0 +1,42 @@
+{
+  "manifest_path": "hdfs://10.58.116.93:8020/nn/dw/iceberg/poc/uinfo/metadata/db05dd46-542b-4e44-9a04-e2be8fcbc6ca-m0.avro",
+  "manifest_length": 6231,
+  "partition_spec_id": 0,
+  "added_snapshot_id": {
+    "long": 7190571759269447000
+  },
+  "added_data_files_count": {
+    "int": 1
+  },
+  "existing_data_files_count": {
+    "int": 0
+  },
+  "deleted_data_files_count": {
+    "int": 0
+  },
+  "partitions": {
+    "array": [
+      {
+        "contains_null": false,
+        "contains_nan": {
+          "boolean": false
+        },
+        "lower_bound": {
+          "bytes": "øÞ_\u0005\u0014Ü\u0005\u0000"
+        },
+        "upper_bound": {
+          "bytes": "øÞ_\u0005\u0014Ü\u0005\u0000"
+        }
+      }
+    ]
+  },
+  "added_rows_count": {
+    "long": 1
+  },
+  "existing_rows_count": {
+    "long": 0
+  },
+  "deleted_rows_count": {
+    "long": 0
+  }
+}
